@@ -1,0 +1,41 @@
+@media #{$tableMode} {
+	.gallery {
+	margin-bottom: 50px;
+}
+.title {
+	text-align: center;
+}
+.text {
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.367;
+}
+.main-image {
+	img {
+		height: 400px;
+	}
+}
+.form-block {
+	background-position: center;
+}
+
+
+}
+
+@media #{$mobileMode} {
+
+	.title {
+		text-align: center;
+	}
+	.text {
+		padding-right: 15px;
+		padding-left: 15px;
+		line-height: 1.367;
+	}
+    .signup-form form{
+        padding: 40px 40px;
+    }
+}
+
+
+

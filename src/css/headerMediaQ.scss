@@ -1,0 +1,24 @@
+@media #{$tableMode} {
+	.container>.navbar-header {
+		margin-left: 0;
+	}
+}
+
+@media #{$mobileMode} {
+	.container>.navbar-header {
+		margin-left: 0;
+	}
+	.navbar-default .navbar-collapse {
+		text-align: inherit;
+	}
+	.navbar-collapse.collapse {
+	    height: auto!important;
+		padding-right:15!important;
+		padding-left: 15!important;
+	}
+	.navbar-nav {
+	    display: block;
+		margin-left: 15px;
+		margin-bottom: 10px
+	}
+}
